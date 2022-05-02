@@ -1,0 +1,18 @@
+# Add new user to database
+POST http://localhost:3000/users/add
+Content-Type: application/json
+
+{
+    "name":"jobs",
+    "age":32,
+    "location":"Silion"
+}
+
+### Get all the users in database
+
+GET http://localhost:3000/users/get
+
+
+### Get user by name
+
+GET http://localhost:3000/users/get?name=shajin
