@@ -1,6 +1,11 @@
 {
-  "name": "users-backend",
-  "version": "0.0.0",
+  "name": "backend",
+  "author": {
+    "email": "shajin.sha10@gmail.com",
+    "name": "shajin",
+    "url": "https://shajin.me"
+  },
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"

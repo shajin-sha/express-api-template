@@ -1,0 +1,24 @@
+#? Done by shajin on May 2022.
+
+#!  Warring
+# Make sure you have installed vs-code rest-clint extension installed.
+### Add new user to database
+### Add new user to database with given info. name, age, location.
+POST http://localhost:3000/users/add
+Content-Type: application/json
+
+{
+    "name":"Jose",
+    "age":64,
+    "location":"USA"
+}
+
+### Get all the users in database.
+### Return all data from endpoint.
+GET http://localhost:3000/users/get
+
+
+### Get user by name.
+### Get a user with name shajin;) from api,
+### if user with name shajin dose,t exists return empty object.
+GET http://localhost:3000/users/get?name=shajin
